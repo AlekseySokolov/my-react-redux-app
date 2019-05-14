@@ -1,0 +1,11 @@
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.navbar-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    padding: 0;
+}

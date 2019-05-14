@@ -1,0 +1,1 @@
+export const newsAction = (posts) => ({type : 'UPDATE', payload: posts });
