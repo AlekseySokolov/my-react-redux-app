@@ -46,3 +46,24 @@
 .btn-submit.disabled {
     color: #8b8b8b;
 }
+
+.hint {
+    font-size: 10px;
+    margin-top: 15px;
+    font-family: Verdana;
+    color: #8b8b8b;
+}
+
+@media screen and (max-width: 870px) {
+    .loginForm {
+        width: auto;
+        box-shadow: none;
+        margin-top: 10px;
+    }
+    .loginInput {
+        width: 210px;
+    }
+    .btn-submit {
+        width: 120px;
+    }
+}

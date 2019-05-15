@@ -36,6 +36,7 @@ const Login = (props) => {
                     Clear
                 </button>
             </div>
+            <span className='hint'>* hint (username: admin, password: 12345)</span>
         </form>
         </div>
     )

@@ -8,3 +8,16 @@
 .greeting.user {
     color: #35dc87;
 }
+@media screen and (max-width: 870px){
+    .greeting {
+        padding: 15px;
+        font-size: 25px;
+        text-align: center;
+        line-height: 35px;
+    }
+    .greeting.user {
+        padding: 15px;
+        font-size: 25px;
+        text-align: center;
+    }
+}

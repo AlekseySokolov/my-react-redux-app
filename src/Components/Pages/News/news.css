@@ -13,3 +13,13 @@
     font-family: "Trebuchet MS";
     color: #223446;
 }
+
+@media screen and (max-width: 870px) {
+    .newsContainer {
+        padding: 10px;
+    }
+    .newsItem {
+        padding: 10px;
+        font-size: 14px;
+    }
+}
