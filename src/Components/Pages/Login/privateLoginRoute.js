@@ -2,6 +2,7 @@ import React from 'react';
 import {Route, Redirect} from 'react-router-dom';
 import * as actions from '../../../actions/loginActions';
 import {connect} from 'react-redux';
+import './login.css';
 
 const PrivateLoginRoute = ({loginState, component: Component, ...rest }) => {
     return (

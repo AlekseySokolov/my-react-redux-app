@@ -4,17 +4,18 @@ import * as actions from '../../../actions/loginActions';
 import {Field, reduxForm} from 'redux-form';
 import {validate} from "./validate";
 import {renderField} from "./renderField";
+import './login.css';
 
 const Login = (props) => {
-    const {handleSubmit, reset, login,submitting,pristine  } = props;
+    const {handleSubmit, reset, login,submitting, pristine, isPristine  } = props;
     const submit = (values) => {
        if(values.username === 'admin' && values.password === '12345') {
            return login();
        }
     };
     return (
-        <div>
-        <form onSubmit={handleSubmit(submit)}>
+        <div className='formContainer'>
+        <form onSubmit={handleSubmit(submit)} className='loginForm'>
                 <Field
                     name="username"
                     component={renderField}
@@ -27,12 +28,14 @@ const Login = (props) => {
                     type="password"
                     label="Password"
                 />
-                <button className="btn-submit" type="submit" label="submit" disabled={pristine || submitting}>
+            <div className='buttonContainer'>
+                <button className={pristine === true ? 'btn-submit disabled' : 'btn-submit'} type="submit" label="submit" disabled={pristine || submitting }>
                     Submit
                 </button>
-                <button className="btn-submit" type="button" label="submit" disabled={pristine || submitting} onClick={reset}  >
+                <button className={pristine === true ? 'btn-submit disabled' : 'btn-submit'} type="button" label="submit" disabled={pristine || submitting} onClick={reset}  >
                     Clear
                 </button>
+            </div>
         </form>
         </div>
     )

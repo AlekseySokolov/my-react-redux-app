@@ -1,0 +1,14 @@
+.newsContainer {
+    background-color: #efefef;
+}
+.newsList {
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.newsItem {
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Trebuchet MS";
+    color: #223446;
+}

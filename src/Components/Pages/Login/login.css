@@ -1,0 +1,48 @@
+.formContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.loginForm {
+    width: 428px;
+    height: 350px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.loginInput {
+    width: 260px;
+    height: 60px;
+    margin: 5px;
+    padding: 0 20px 0 20px;
+    background-color: #f3f3f3;
+    border: none;
+
+}
+.inputContainer {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.error {
+    color: #EF767A;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.buttonContainer {
+    margin-top: 5px;
+}
+.btn-submit {
+    width: 145px;
+    height: 60px;
+    background-color: #49DCB1;
+    border: none;
+    margin: 5px;
+    color: white;
+}
+.btn-submit.disabled {
+    color: #8b8b8b;
+}

@@ -7,6 +7,7 @@ import Profile from './Components/Pages/Profile/profile';
 import Login from './Components/Pages/Login/login';
 import PrivateProfileRoute from './Components/Pages/Profile/privateProfileRoute';
 import PrivateLoginRoute from './Components/Pages/Login/privateLoginRoute';
+import './app.css';
 
 
 const App = () => {

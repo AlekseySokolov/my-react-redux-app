@@ -5,11 +5,11 @@ export const renderField = ({
                          type,
                          meta: { touched, error}
                      }) => (
-    <div>
+    <div className='inputContainer'>
         <div>
-            <input {...input} placeholder={label} type={type} />
-            {touched &&
-            ((error && <span>{error}</span>))}
+            <input {...input} placeholder={label} type={type} className='loginInput' />
         </div>
+        {touched &&
+        ((error && <span className='error'>{error}</span>))}
     </div>
 );
