@@ -4,4 +4,5 @@
 -Управление состоянием [Redux](https://github.com/reduxjs/redux)<br/>
 -Форма ввода username & password [Redux-form](https://github.com/erikras/redux-form)<br/>
 -Отображение данных из API [axios](https://github.com/axios/axios)<br/>
--верстка [Flex-box](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox)
+-верстка [Flex-box](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox)</br>
+[Demo in CodeSandBox](https://codesandbox.io/s/6zx6l03ovn)
