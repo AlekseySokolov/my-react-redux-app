@@ -1,10 +1,7 @@
-.greeting {
+.profileTitle {
     align-self: center;
     color: #274156;
     font-size: 30px;
     font-family: Verdana;
     padding-top: 50px;
-}
-.greeting.user {
-    color: #35dc87;
 }
